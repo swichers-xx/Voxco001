@@ -405,7 +405,7 @@ $timer1.add_Tick($GetStatus)
 Write-Debug "ShowDialog()"
 $form1.ShowDialog()| Out-Null
 
-} #End Function
+#End Function
 
 #Call the Function
 Write-Debug "Call GenerateForm"
